@@ -1,0 +1,203 @@
+:root {
+}
+
+body {
+font-size: 14px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: #726e60;
+}
+
+h1{
+    font-size: 1.5rem;
+}
+
+header {
+position: fixed;
+width: 100%;
+height: 42px;
+background-color: #442b48;
+}
+
+ul > .nav-bar {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ background-color: #442b48;
+}
+
+nav {
+    display: inline;
+}
+
+.nav-title {
+   color: #dbff76;
+float: left;
+display: block;
+text-align: center;
+padding: 10px 16px;
+text-decoration: none; 
+}
+
+.nav-item {
+color: #dbff76;
+float: right;
+display: block;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.nav-item:hover {
+    background-color: #726e60;
+}
+
+.nav-item:active {
+    background-color: #405249;
+}
+
+main {
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+}
+
+.main-left {
+    flex-shrink: 0;
+    background-color: #726e60;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 750px;
+    width: 59.5%;
+    justify-content: space-evenly;
+}
+
+h2 {
+border: 1px solid #442b48;
+font-size: 3rem;
+color: #442b48;
+padding-left: 5px;
+padding-right: 5px;
+line-height: normal;
+}
+
+.main-text {
+font-size: 1.5rem;
+color: #442b48;
+margin-top: 20px;
+
+}
+
+.main-txt {
+margin-top: 35%;
+
+
+}
+
+.pfp {
+    margin-top: 20%;
+    height: 50%;
+    width: 50%;
+}
+
+.my-name {
+    font-weight: bolder;
+}
+
+
+
+.main-right {
+    border: 1px solid #442b48;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: #dbff76;
+    height: 750px;
+    width: 40%
+}
+
+.about-me {
+    margin-bottom: 5%;
+    text-align: center;
+    margin-top: 20%;
+
+}
+
+.aboutme-txt {
+    color: #442b48;
+    padding: 10px 5px;
+    font-size: 1.05rem;
+}
+
+h3 {
+    font-size: 3rem;
+    line-height: normal;
+    color: #442b48;
+}
+
+
+.my-work {
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+
+}
+
+.left-sidebar {
+    border: 1px solid #442b48;
+    background-color: #dbff76;
+    width: 19%;
+    height: 700px;
+    flex-basis: auto;
+    flex-shrink: 0;
+    
+}
+
+.applications {
+background-color: #726e60;
+width: 80%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-content: space-around;
+}
+
+.main-app {
+    align-self: flex-end;
+    flex-basis: auto;
+    flex-shrink: 0;
+    background-color:#442b48;
+    width: 90%; 
+    height: 200px; 
+}
+
+.app {
+    flex-basis: auto;
+    flex-shrink: 0;
+    background-color: #442b48;
+    height: 200px;
+    width: 200px;
+}
+
+.work-pic {
+    width: 200px;
+    height: 200px;
+}
+
+.app:hover {
+    opacity: .5;
+}
+.main-app:hover {
+    opacity: .5;
+}
+
+.contact-me {
+    text-align: center;
+}
+.contact-item {
+    font-size: 1.25rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline;
+}
